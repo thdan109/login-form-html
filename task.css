@@ -1,0 +1,97 @@
+body {
+  background-color: #878dc7;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container{
+  margin: 0;
+  width: 80%;
+  height: 800px;
+  background-color: #d3c7c7;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  background-color: white;
+}
+.main-lg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 55%;
+  height: 100%;
+  
+}
+.title{
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.div-create{
+  margin-bottom: 20px;
+}
+.span-new{
+  color: rgb(144, 144, 144);
+  margin-right: 5px;
+}
+.span-create{
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.input{
+  height: 50px;
+  border: 1px solid rgb(167, 167, 167);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.div-action-pw{
+  text-align: center;
+  /* margin-top: -10px; */
+  margin-bottom: 30px;
+}
+.text-checkbox{
+  color: rgb(168, 168, 168);
+}
+.span-forgot{
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn-lg{
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+  height: 50px;
+  background-color: green;
+  border-radius: 20px;
+}
+.btn-lg-fb{
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+  height: 50px;
+  background-color: navy;
+  border-radius: 20px;
+}
+.btn-lg-gg{
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+
